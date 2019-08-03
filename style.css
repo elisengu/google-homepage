@@ -1,6 +1,72 @@
+.logo, .search, .button1, .button2,.mic{
+	margin: 0;
+  	position: absolute;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+.button1, .button2{
+	background-color: #f0f0f0;
+  	border: none;
+  	text-decoration: none;
+  	padding: 10px 17px;
+}
 .logo{
-  vertical-align: middle;
+  top: 42%;
+  left: 50%;
+
+  max-width: 100%;
+  width: 21%;
+  height: auto;
 }
 .search{
-	vertical-align: middle;
+	top: 60%;
+	left: 50%;
+
+	height: 45px;
+	border-radius: 25px;
+    padding-left: 20px;
+    border-color: #c0c0c0;
+}
+.search:hover{
+	border-style: none;
+    box-shadow: 0 0 8px #c0c0c0;
+}
+.button1{
+	top: 72%;
+	left: 44%;
+}
+.button2{
+	top: 72%;
+	left: 56%;
+}
+.button1, .button2{
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+.button1:hover, .button2:hover{
+	border: 1px solid #c0c0c0;
+}
+.mic{
+	top: 60%;
+	left: 70%;
+	max-width: 100%;
+  	width: 1.2%;
+  	height: auto;
+}
+.about, .store{
+  border: none;
+  background-color: inherit;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #c0c0c0;
+  cursor: pointer;
+  display: inline-block;
+}
+.about:hover, .store:hover {text-decoration: underline;}
+.bottom-stripe{
+	position: absolute;
+	border:.5px solid #c0c0c0;
+	bottom: 30px;
+  	width: 99%;
+  	overflow: auto;
 }
